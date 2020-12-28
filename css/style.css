@@ -322,6 +322,13 @@ header {
     text-align: center;
     padding: 6em;
 }
+.resources-links {
+    color: inherit;
+    font-weight: bold;
+}
+.resources-links:hover {
+    opacity: .7;
+}
 
 .section__title--services {
     color: var(--clr-dark);
@@ -487,9 +494,9 @@ a {
     opacity: .7;
 }
 
-.footer__link:hover {
+/*.footer__link:hover {
     text-decoration: underline;
-}
+}*/
 
 .social-list {
     list-style: none;
