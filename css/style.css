@@ -17,6 +17,7 @@
     --clr-dark: #333333;
     --clr-pink: #FCE0E8;
     --clr-purple: #E2E7FF;
+    --clr-green:  #E0FCF7;
     --clr-accent: #FEF6E6;
     --clr-gray: #f1f2f3;
 
@@ -134,7 +135,13 @@ h3 { font-size: var(--fs-h3) }
 .section__subtitle--work {
     color: var(--clr-accent);
     font-weight: var(--fw-bold);
-    margin-bottom: 2em;
+/*    margin-bottom: 2em;
+*/}
+
+.section__subtitle--work-2 {
+      margin-bottom: 2em;
+
+
 }
 
 /* header */
@@ -356,7 +363,7 @@ header {
 .about-me {
     /*max-width: 1000px;
     margin: 0 auto;*/
-    background: #E0FCF7;
+    background: var(--clr-green);
     padding: 9em
 }
 
