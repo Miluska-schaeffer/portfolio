@@ -15,8 +15,9 @@
 
     --clr-light: #fff;
     --clr-dark: #333333;
-    --clr-pink: #FCE0E8;
-    --clr-purple: #E2E7FF;
+     --clr-pink: red;
+/*    --clr-pink: #FCE0E8;
+*/    --clr-purple: #E2E7FF;
     --clr-green:  #E0FCF7;
     --clr-accent: #FEF6E6;
     --clr-gray: #f1f2f3;
