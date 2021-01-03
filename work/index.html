@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Miluska Schaeffer's Portfolio </title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Lato:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+<!--         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+ -->
+        <link rel="shortcut icon" type="image/x-icon" href="favicon_package_v0.16/favicon.ico">
+        <meta property='og:title' content="Miluska Schaeffer's Portfolio"/>
+        <meta property='og:image' content="https://miluska-schaeffer.github.io/portfolio/images/mschaeffer-portfolio.png"/>
+        <meta property='og:description' content="Miluska Schaeffer's Portfolio" />
+        <meta property="og:type" content="Website" />
+        <meta property='og:url' content="https://miluska-schaeffer.github.io/portfolio/" />
+
+    </head>
+    <body>
+        <header>
+            <!-- <div class="logo">
+                <span> miluska</span>
+            </div> -->
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="../index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="../about.html" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html" class="nav__link">My Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" >
+            <h1 class="section__title section__title--intro">
+                My <strong>Projects</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Full-Stack Web Development / UI   </p>
+         </section>
+
+
+
+
+
+        <!-- My Work -->
+        <section class="my-work work--folder-section" id="work">
+            <h1 class="section__title section__title--intro web-dev">
+                Web Development</h1>
+            <p class="section__subtitle section__subtitle--work web-dev-text">A selection of some of the projects developed during Le Wagon.</p>
+            <p class="section__subtitle section__subtitle--work-2 web-dev-text">These were developed on Ruby On Rails and deployed on Heroku and are <br> displayed here chronologically, being the last one the final project of the bootcamp. </p>
+
+            <div class="work--projects">
+
+              <div class="row-project">
+
+
+                        <img src="../images/mixology-mrcocktail.png" alt="" class="work-project--img">
+
+
+                    <DIV class="project-info">
+                      <div class="project-info--text">
+                        <P>Mixology, a prototype of an application to find and share drinks recipes.</P>
+                        <p>Developed in Rails 6 and deployed to Heroku. Includes the use of SCSS, Bootstrap.
+                        </p>
+                        <a href="https://mix-ology.herokuapp.com/" class="btn" target="_blank">View Project</a>
+                      </div>
+                   </DIV>
+
+              </div>
+
+
+                <DIV class="row-project">
+
+                     <img src="../images/address-trucks.png" alt="" class="work-project--img" >
+
+                  <DIV class="project-info">
+                    <div class= "project-info--text">
+                        <P>AddressMover Trucks, an Airbnb clone, is a platform where users can find and offer trucks for rent.</P>
+                        <p>Developed in Rails 6 and deployed to Heroku, includes SCSS, Bootstrap, Devise, Pundit, Mapbox, Geocoder, PgSearch, EasyAutocomplete. </p>
+                        <a href=" https://address-mover-trucks.herokuapp.com/" class="btn" target="_blank">View Project</a>
+                      </div>
+                   </DIV>
+                </DIV>
+
+
+                <DIV class="row-project">
+
+                      <img src="../images/addressmover.png" alt="" class=" work-project--img" >
+
+                    <DIV class="project-info">
+                      <div class=" project-info--text">
+                            <P>AddressMover, an application that allows users changing their address information from their service providers easily.</p>
+
+                            <p>Developed in Rails 6 and deployed to Heroku, includes SCSS, Bootstrap, Devise, Pundit, Mapbox, Geocoder, PgSearch, EasyAutocomplete, Wicked PDF, Sucker Punch, AJAX, ActionController::API, Stimulus. </p>
+
+                            <p>This app prototype required the creation of a fictitious service partner called "Travel Dream", to showcase the API - the address change - in action. </P>
+
+                          <a href="http://www.address-mover.com/" class="btn" target="_blank">View Project</a>
+                      </div>
+                   </DIV>
+                </DIV>
+              </div>
+
+        </section>
+
+         <section class="intro dailyui">
+            <h1 class="section__title section__title--intro dailyui--title">
+                Daily UI Challenges
+            </h1>
+            <span>Hoping to challenge and develop my UI skills, I have recently signed up to Daily UI, <br> where you receive a daily email with a design challenge. You can check out my creations below.</span>
+
+         </section>
+
+         <!-- My Work -->
+        <div class="reel-container mb-3">
+
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="../images/day-one.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="../images/day-three.png" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="../images/day-two.png" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="footer" id="contact">
+
+            <p class="footer__text">Let's grab a [virtual] coffee</p>
+            <a href="mailto:miluska.schaeffer@gmail.com" class="footer__link-call" target="_blank"><i class="fas fa-mug-hot" ></i>
+               Get in touch</a>
+            <ul class="social-list">
+
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/miluska-schaeffer/" target="_blank" aria-label="Visit Miluska Schaeffer's Linkedin page">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Miluska-schaeffer" target="_blank" aria-label="Visit Miluska Schaeffer's Github page">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+
+        <script src="../js/index.js"></script>
+
+    </body>
+</html>

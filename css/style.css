@@ -314,7 +314,6 @@ header {
 
 .my-services {
     background-color: var(--clr-purple);
-
 /*    background-image: url(../images/services-bg.jpg);
 */  background-size: cover;
     /* background-blend-mode: multiply; */
@@ -428,8 +427,9 @@ header {
 .portfolio {
     display: grid;——
     padding: 0 40px;
-/*    grid-gap: px;
-*/   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 7px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-bottom: 3rem;
 }
 
 .portfolio__item {
@@ -472,7 +472,7 @@ header {
 
 
 .footer__text {
-  font-size: 24px;
+  font-size: 34px;
 }
 
 a {
@@ -517,4 +517,117 @@ a {
 }
 .fa-mug-hot {
   margin-right: 0.1em;
+}
+
+
+/*daily UI */
+.dailyui {
+  text-align: center;
+  width: auto;
+}
+
+
+
+.reel-container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+/*about page*/
+.btn--about-projects {
+  margin-top: 3rem;
+}
+
+
+/*WORK FOLDER index*/
+
+.work--folder-section {
+  background: #e4f0f8;
+}
+
+.work-projects {
+  display: flex;
+}
+
+.web-dev-text {
+  text-align: left;
+  }
+
+.work-project--img {
+  margin-top: 30px;
+  transition: none;
+  background: none;
+
+
+}
+
+
+.work-project--img:hover {
+  margin-top: 30px;
+  transition: none;
+  transform: 0;
+
+}
+
+.web-dev {
+  text-align: left;
+  font-size: 3rem;
+  font-weight: bold;
+
+}
+
+@media (max-width: 900px) {
+    .web-dev {
+
+        font-size: 55px;
+    }
+  }
+
+@media (max-width: 800px) {
+    .row-project {
+        display: grid;
+        grid-template-columns:  1fr;
+    }
+  }
+
+
+
+ @media (min-width: 800px) {
+    .row-project {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "img project-info";
+        grid-column-gap: 2em;
+    }
+  }
+
+.project-info {
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.project-info > div {
+  text-align: left;
+}
+
+.project-info--text > p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.row-project > img {
+  border-radius: 3px;
+}
+
+
+
+.dailyui--title {
+  font-size: 3rem;
+  font-weight: bold;
 }

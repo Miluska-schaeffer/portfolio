@@ -6,7 +6,6 @@
         <title>Miluska Schaeffer's Portfolio </title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Lato:300,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" type="image/x-icon" href="favicon_package_v0.16/favicon.ico">
@@ -28,9 +27,10 @@
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">What now?</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My Projects</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="work/index.html" class="nav__link">My Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+
                 </ul>
             </nav>
         </header>
@@ -65,28 +65,16 @@
 
                 <div class="service">
                     <h3>Daily UI</h3>
-                    <p>Focusing my interest in UI/UX through <a href="https://www.dailyui.co/" class="resources-links" target="_blank">DailyUI's </a>  subscription challenges, other way to up-skill.</p>
+                    <p>Focusing my interest in UI/UX through <a href="https://www.dailyui.co" class="resources-links" target="_blank">DailyUI's </a>  subscription challenges, other way to up-skill.</p>
                 </div> <!-- / service -->
             </div> <!-- / services -->
+            <a href="about.html" class="btn">See More</a>
 
-            <a href="#work" class="btn">My Projects</a>
+
         </section>
 
 
-        <!-- About me -->
-        <section class="about-me" id="about">
-           <h2 class="section__title section__title--about">Who I am</h2>
-           <p class="section__subtitle section__subtitle--about">Full Stack Web Developer & Advertiser based in Berlin</p>
 
-           <div class="about-me__body">
-               <p>At the end of 2020 I attended Le Wagon Bootcamp and during those 3 hard months I learned how to work with Ruby on Rails and fell in love with design, Front-End Development and UX Design.</p>
-
-               <p>Since then I am focused on learning and getting better every day, using each opportunity I have to learn new skills from the UX field and practice my HTML, CSS and JavaScript.</p>
-
-               <p>Coming from my previous experiences in advertising and copywriting, my love for creating beautiful and efficient solutions has now happily transitioned into the new digital age as I begin my exciting journey into these areas.</p>
-           </div>
-
-        </section>
 
         <!-- My Work -->
         <section class="my-work" id="work">
@@ -118,8 +106,9 @@
                 </a>
 
 
-
             </div>
+
+            <a href="work/index.html" class="btn">See More</a>
         </section>
 
 
@@ -132,7 +121,7 @@
 
 
         <!-- Footer -->
-        <footer class="footer">
+        <footer class="footer" id="contact">
 
             <p class="footer__text">Let's grab a [virtual] coffee</p>
             <a href="mailto:miluska.schaeffer@gmail.com" class="footer__link-call" target="_blank"><i class="fas fa-mug-hot" ></i>
